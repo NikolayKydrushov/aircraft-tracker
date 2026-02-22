@@ -1,13 +1,15 @@
 # Проект Aircraft_Tracker
 
 ## Описание
+Aircraft_Tracker - программа, которая собирает данные о самолетах в воздушных пространствах тех стран, которые вы выберете.
+Чтобы получить географические координаты стран, используется API [nominatim.openstreetmap.org](https://nominatim.openstreetmap.org/ui/search.html), а чтобы получить информацию о самолетах — API [opensky-network.org](https://opensky-network.org/).
 
 
 ## Установка:
 
 1. Клонируйте репозиторий:
 ```
-
+https://github.com/NikolayKydrushov/aircraft-tracker
 ```
 
 ## Задание
