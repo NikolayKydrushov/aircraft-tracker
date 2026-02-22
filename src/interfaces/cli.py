@@ -181,9 +181,9 @@ def user_interaction():
         elif choice == "3":
             # Фильтр по стране регистрации
             countries_input = input(
-                "\nВведите страны для фильтрации (через пробел): "
+                "\nВведите страны для фильтрации (через запятую): "
             ).strip()
-            countries = [c.strip() for c in countries_input.split() if c.strip()]
+            countries = [c.strip() for c in countries_input.split(',') if c.strip()]
 
             if not countries:
                 print("Ошибка: Введите хотя бы одну страну")
